@@ -9,7 +9,7 @@ How to install:
 Edit the 
 
 
-`var url = "**YOUR CHALLENGEPOST SUBMISSIONS URL HERE**";`
+`var url = "**CHALLENGEPOST URL SUBMISSIONS";`
 
 Then save.
 
