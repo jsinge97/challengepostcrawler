@@ -1,8 +1,8 @@
 {
   "name": "challengecrawler",
   "version": "1.0.0",
-  "description": "simple system to get info from challengepost",
-  "main": "server.js",
+  "description": "Quick and dirty challengepost crawler",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,6 @@
   "dependencies" : {
   	"express"	: "latest",
   	"request"	: "latest",
-  	"cheerio"	: "latest"
-  }
-  
+  	"cheerio"	: "latest",
+  } 
 }
-
