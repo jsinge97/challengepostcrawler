@@ -18,7 +18,7 @@ Navigate to the repository in your command line, then run:
 `node`
 
 Then go to this url in your browser:
-[google.com](google)`
+[http://localhost:1234/scrape]
 
 After that, you can see the progress in your console and the final result in the output.json file.
 
