@@ -23,5 +23,5 @@ Then go to this url in your browser:
 After that, you can see the progress in your console and the final result in the output.json file.
 
 Things to do:
-Clean up JSON
-Some async cleanup
+1. Clean up JSON
+2. Some async cleanup
