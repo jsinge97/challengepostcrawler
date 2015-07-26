@@ -15,7 +15,8 @@ Then save.
 
 Navigate to the repository in your command line, then run:
 
-`node`
+`npm install
+node main.js`
 
 Then go to this url in your browser:
 [http://localhost:1234/scrape](http://localhost:1234/scrape)
