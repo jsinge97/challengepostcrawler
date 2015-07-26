@@ -16,6 +16,7 @@ Then save.
 Navigate to the repository in your command line, then run:
 
 `npm install`
+
 `node main.js`
 
 Then go to this url in your browser:
