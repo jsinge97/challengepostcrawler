@@ -12,14 +12,14 @@ var urlRequest = function (url, callback) {
             $('ul.pagination').filter(function () {
                 var a = $(this);
                 var num = parseInt(a.children().last().prev().text());
-                callback(num, pullHacks);
+                callback(url, num, pullHacks);
             });
         }
     });
 };
 
-var urlFormArray = function (num, callback) {
-    var url = "http://pennappsx.challengepost.com/submissions";
+var urlFormArray = function (url, num, callback) {
+    
     var urls = [];
     for (var i = 1; i <= num; i++) {
         var newUrl = url + "?page=" + i;
@@ -66,7 +66,7 @@ var writeFile = function (info) {
 };
 // Instantiation of script
 app.get('/scrape', function(req, res) {
-    var url = "**YOUR CHALLENGEPOST SUBMISSIONS URL HERE**";
+    var url = "**CHALLENGEPOST URL SUBMISSIONS";
     urlRequest(url, urlFormArray);
     res.send("Check the your folder for the output");
 });
