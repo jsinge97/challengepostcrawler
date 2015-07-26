@@ -14,9 +14,9 @@ Edit the
 to whatever hackathon url submissions url you need.
 
 Example:
-`var url = "sohacks2014.challengepost.com/submissions";`
+`var url = "http://sohacks2014.challengepost.com/submissions/";`
 
-Then save.
+Don't forget the http etc., then save.
 
 Navigate to the repository in your command line, then run:
 
