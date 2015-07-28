@@ -1,6 +1,6 @@
-# Challengepost Crawler
+# Challengepost Crawler || Dev Post Crawler
 
-#### Scrape your challenge post submissions site for easy table assignments
+#### Scrape your challenge/dev post submissions site for easy table assignments
 
 How to install:
 
@@ -9,12 +9,12 @@ How to install:
 Edit the 
 
 
-`var url = "**CHALLENGEPOST URL SUBMISSIONS";`
+`var url = "**CHALLENGE/DEV POST URL SUBMISSIONS";`
 
 to whatever hackathon url submissions url you need.
 
 Example:
-`var url = "http://sohacks2014.challengepost.com/submissions/";`
+`var url = "http://sohacks2014.devpost.com/submissions/";`
 
 Don't forget the http etc., then save.
 
