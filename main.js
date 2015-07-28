@@ -71,4 +71,4 @@ app.get('/scrape', function(req, res) {
     res.send("Check the your folder for the output");
 });
 app.listen('8080');
-console.log('Visit http://localhost:8080/scrape in your browser to get the hacks, make sure you change your challengepost submissions url in the server file. Example: http://mhacks.challengepost.com/submissions');
+console.log('Visit http://localhost:8080/scrape in your browser to get the hacks, make sure you change your challengepost/devpost submissions url in the server file. Example: http://mhacks.devpost.com/submissions');
